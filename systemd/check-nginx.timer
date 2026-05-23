@@ -1,0 +1,10 @@
+[Unit]
+Description=Запускать check-nginx каждую минуту
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=1min
+Unit=check-nginx.Service
+
+[Install]
+WantedBy=timers.target
