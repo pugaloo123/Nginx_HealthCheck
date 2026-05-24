@@ -23,7 +23,7 @@ chmod +x /usr/local/bin/check_nginx.sh
 
 echo "Копируем systemd unit-файлы..."
 cp systemd/check-nginx.service /etc/systemd/system/
-cp system/check-nginx.timer /etc/systemd/system/
+cp systemd/check-nginx.timer /etc/systemd/system/
 
 echo ""
 echo "Готово!"
