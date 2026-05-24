@@ -17,3 +17,4 @@ if [ "$HTTP_CODE" != "200" ]; then
     fi
 else
     echo "[$TIMESTAMP] OK: Nginx работает (код: $HTTP_CODE)." >> "$LOG"
+fi
