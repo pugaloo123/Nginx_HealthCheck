@@ -28,5 +28,5 @@ cp systemd/check-nginx.timer /etc/systemd/system/
 echo ""
 echo "Готово!"
 echo "Статус таймера: systemctl status check-nginx.timer"
-echo "Следить за логом: tail -f /var/log/check_nginx.log
+echo "Следить за логом: tail -f /var/log/check_nginx.log"
 
